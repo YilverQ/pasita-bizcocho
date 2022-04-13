@@ -1,0 +1,92 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+body{
+	background-image: url(imagenes/body.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+}
+div.sabana{
+	background: rgba(10,10,10,0.3);
+	width: 100%;
+}
+/*Fuentes*/
+
+@font-face{
+	src:url(fuentes/Pacifico-Regular.ttf);
+	font-family: hola4;
+}
+@font-face{
+	src:url(fuentes/PlayfairDisplay-Italic.ttf);
+	font-family: hola5;
+}
+/*Fin de las Fuentes*/
+article{
+	width: 80%;
+	margin:auto;
+	padding: 20px;
+}
+div.main{
+	background: rgba(77, 60, 73,0.7);
+	width: 100%;
+	margin: 10px 0px;
+	border-radius: 10px;
+	box-shadow: 4px 2px 4px rgba(10,10,10,0.5);
+}
+
+h1{
+	font-size: 40px;
+	font-family: hola4;
+	text-align: center;
+	margin-bottom: 10px;
+}
+h1 strong{
+	color: #f857b5;
+}
+h2{
+	font-size: 30px;
+	font-family: hola4;
+	text-align: center;
+	border: 4px dashed #f781bc;
+	padding: 5px;
+	width: 300px;
+	margin: auto;
+	border-radius: 5px;
+}
+
+p{
+	font-family: hola5;
+	font-weight: 700;
+	font-size: 20px;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+p b{
+	background: #f781bc;
+	padding: 2px;
+	border-radius: 3px;
+}
+div.img1 img{
+	display: block;
+	margin: auto;
+}
+div.img2{
+	float: left;
+}
+div.img23{
+	float: right;
+}
+div.final{
+	margin-top: 50px;
+}
+div.final h3{
+	font-size: 20px;
+	font-family: hola4;
+	text-align: center;
+}
+div.final strong{
+	color: #f857b5;
+}
